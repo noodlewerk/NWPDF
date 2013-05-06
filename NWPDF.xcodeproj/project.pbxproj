@@ -1,0 +1,1466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A1962417379BD8000DC90F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962317379BD8000DC90F /* UIKit.framework */; };
+		B3A1962617379BD8000DC90F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962517379BD8000DC90F /* Foundation.framework */; };
+		B3A1962817379BD8000DC90F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962717379BD8000DC90F /* CoreGraphics.framework */; };
+		B3A1962A17379BD8000DC90F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962917379BD8000DC90F /* CoreData.framework */; };
+		B3A1964717379BD8000DC90F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1964617379BD8000DC90F /* SenTestingKit.framework */; };
+		B3A1964817379BD8000DC90F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962317379BD8000DC90F /* UIKit.framework */; };
+		B3A1964917379BD8000DC90F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962517379BD8000DC90F /* Foundation.framework */; };
+		B3A1964A17379BD8000DC90F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962917379BD8000DC90F /* CoreData.framework */; };
+		B3A1966217379C08000DC90F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1966117379C08000DC90F /* Cocoa.framework */; };
+		B3A1968217379C09000DC90F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1964617379BD8000DC90F /* SenTestingKit.framework */; };
+		B3A1968317379C09000DC90F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1966117379C08000DC90F /* Cocoa.framework */; };
+		B3A1969A17379C30000DC90F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962517379BD8000DC90F /* Foundation.framework */; };
+		B3A196C217379C3F000DC90F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1966117379C08000DC90F /* Cocoa.framework */; };
+		B3A196E417379CA0000DC90F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B3A196E317379CA0000DC90F /* README.md */; };
+		B3A196E517379CA0000DC90F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B3A196E317379CA0000DC90F /* README.md */; };
+		B3A1971517379CB2000DC90F /* NWPDFAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196E817379CB2000DC90F /* NWPDFAnnotation.h */; };
+		B3A1971617379CB2000DC90F /* NWPDFAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196E917379CB2000DC90F /* NWPDFAnnotation.m */; };
+		B3A1971717379CB2000DC90F /* NWPDFAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196E917379CB2000DC90F /* NWPDFAnnotation.m */; };
+		B3A1971817379CB2000DC90F /* NWPDFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196EA17379CB2000DC90F /* NWPDFCommon.h */; };
+		B3A1971917379CB2000DC90F /* NWPDFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196EB17379CB2000DC90F /* NWPDFCommon.m */; };
+		B3A1971A17379CB2000DC90F /* NWPDFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196EB17379CB2000DC90F /* NWPDFCommon.m */; };
+		B3A1971B17379CB2000DC90F /* NWPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196EC17379CB2000DC90F /* NWPDFDocument.h */; };
+		B3A1971C17379CB2000DC90F /* NWPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196ED17379CB2000DC90F /* NWPDFDocument.m */; };
+		B3A1971D17379CB2000DC90F /* NWPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196ED17379CB2000DC90F /* NWPDFDocument.m */; };
+		B3A1971E17379CB2000DC90F /* NWPDFInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196EE17379CB2000DC90F /* NWPDFInformation.h */; };
+		B3A1971F17379CB2000DC90F /* NWPDFInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196EF17379CB2000DC90F /* NWPDFInformation.m */; };
+		B3A1972017379CB2000DC90F /* NWPDFInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196EF17379CB2000DC90F /* NWPDFInformation.m */; };
+		B3A1972117379CB2000DC90F /* NWPDFNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196F017379CB2000DC90F /* NWPDFNode.h */; };
+		B3A1972217379CB2000DC90F /* NWPDFNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196F117379CB2000DC90F /* NWPDFNode.m */; };
+		B3A1972317379CB2000DC90F /* NWPDFNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196F117379CB2000DC90F /* NWPDFNode.m */; };
+		B3A1972417379CB2000DC90F /* NWPDFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196F217379CB2000DC90F /* NWPDFPage.h */; };
+		B3A1972517379CB2000DC90F /* NWPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196F317379CB2000DC90F /* NWPDFPage.m */; };
+		B3A1972617379CB2000DC90F /* NWPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196F317379CB2000DC90F /* NWPDFPage.m */; };
+		B3A1972717379CB2000DC90F /* NWPDF-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B3A196F417379CB2000DC90F /* NWPDF-Prefix.pch */; };
+		B3A1972817379CB2000DC90F /* NWPDF.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196F517379CB2000DC90F /* NWPDF.h */; };
+		B3A1972A17379CB2000DC90F /* NWPDFPageContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196F917379CB2000DC90F /* NWPDFPageContainerViewController.m */; };
+		B3A1972D17379CB2000DC90F /* NWPDFSinglePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196FB17379CB2000DC90F /* NWPDFSinglePageViewController.m */; };
+		B3A1973017379CB2000DC90F /* NWPDFDocumentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A196FE17379CB2000DC90F /* NWPDFDocumentScrollView.m */; };
+		B3A1973317379CB2000DC90F /* NWPDFScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970017379CB2000DC90F /* NWPDFScrollViewController.m */; };
+		B3A1973617379CB2000DC90F /* NWPDFCacheMonitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970317379CB2000DC90F /* NWPDFCacheMonitorView.m */; };
+		B3A1973917379CB2000DC90F /* NWPDFPageNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970517379CB2000DC90F /* NWPDFPageNumberView.m */; };
+		B3A1973C17379CB2000DC90F /* NWPDFSinglePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970717379CB2000DC90F /* NWPDFSinglePageView.m */; };
+		B3A1973F17379CB2000DC90F /* NWPDFThumbIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970917379CB2000DC90F /* NWPDFThumbIndexView.m */; };
+		B3A1974117379CB2000DC90F /* NWPDFCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970B17379CB2000DC90F /* NWPDFCache.h */; };
+		B3A1974217379CB2000DC90F /* NWPDFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970C17379CB2000DC90F /* NWPDFCache.m */; };
+		B3A1974317379CB2000DC90F /* NWPDFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970C17379CB2000DC90F /* NWPDFCache.m */; };
+		B3A1974417379CB2000DC90F /* NWPDFCacheMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970D17379CB2000DC90F /* NWPDFCacheMonitor.h */; };
+		B3A1974517379CB2000DC90F /* NWPDFCacheMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970E17379CB2000DC90F /* NWPDFCacheMonitor.m */; };
+		B3A1974617379CB2000DC90F /* NWPDFCacheMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1970E17379CB2000DC90F /* NWPDFCacheMonitor.m */; };
+		B3A1974717379CB2000DC90F /* NWPDFDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970F17379CB2000DC90F /* NWPDFDiff.h */; };
+		B3A1974817379CB2000DC90F /* NWPDFDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1971017379CB2000DC90F /* NWPDFDiff.m */; };
+		B3A1974917379CB2000DC90F /* NWPDFDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1971017379CB2000DC90F /* NWPDFDiff.m */; };
+		B3A1974A17379CB2000DC90F /* NWPDFPagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1971117379CB2000DC90F /* NWPDFPagePrefetcher.h */; };
+		B3A1974B17379CB2000DC90F /* NWPDFPagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1971217379CB2000DC90F /* NWPDFPagePrefetcher.m */; };
+		B3A1974C17379CB2000DC90F /* NWPDFPagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1971217379CB2000DC90F /* NWPDFPagePrefetcher.m */; };
+		B3A1974D17379CB2000DC90F /* NWPDFThumbPrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1971317379CB2000DC90F /* NWPDFThumbPrefetcher.h */; };
+		B3A1974E17379CB2000DC90F /* NWPDFThumbPrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1971417379CB2000DC90F /* NWPDFThumbPrefetcher.m */; };
+		B3A1974F17379CB2000DC90F /* NWPDFThumbPrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1971417379CB2000DC90F /* NWPDFThumbPrefetcher.m */; };
+		B3A1976E17379CBB000DC90F /* NWPDFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1975517379CBB000DC90F /* NWPDFAppDelegate.m */; };
+		B3A1977017379CBB000DC90F /* NWPDFNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1975817379CBB000DC90F /* NWPDFNodeController.m */; };
+		B3A1977217379CBB000DC90F /* NWPDFNodeDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1975A17379CBB000DC90F /* NWPDFNodeDetailController.m */; };
+		B3A1977417379CBB000DC90F /* NWPDFNodeDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A1975B17379CBB000DC90F /* NWPDFNodeDetailController.xib */; };
+		B3A1977617379CBB000DC90F /* NWPDFCacherController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1975E17379CBB000DC90F /* NWPDFCacherController.m */; };
+		B3A1977817379CBB000DC90F /* NWPDFCacherController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A1975F17379CBB000DC90F /* NWPDFCacherController.xib */; };
+		B3A1977A17379CBB000DC90F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A1976017379CBB000DC90F /* Default-568h@2x.png */; };
+		B3A1977B17379CBB000DC90F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A1976017379CBB000DC90F /* Default-568h@2x.png */; };
+		B3A1977C17379CBB000DC90F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1976117379CBB000DC90F /* main.m */; };
+		B3A1977E17379CBB000DC90F /* NWPDFMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1976417379CBB000DC90F /* NWPDFMenuTableViewController.m */; };
+		B3A1978217379CBB000DC90F /* demo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3A1976817379CBB000DC90F /* demo.pdf */; };
+		B3A1978317379CBB000DC90F /* demo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3A1976817379CBB000DC90F /* demo.pdf */; };
+		B3A1978B17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
+		B3A1978C17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
+		B3A1978D17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
+		B3A1978E17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
+		B3A1978F17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
+		B3A1979017379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
+		B3A197BA17379EDC000DC90F /* NWPDFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A197B717379EDC000DC90F /* NWPDFTest.m */; };
+		B3A197BB17379EDC000DC90F /* NWPDFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A197B717379EDC000DC90F /* NWPDFTest.m */; };
+		B3DECED61737B16F005C3F64 /* libNWPDFTouchStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1969917379C30000DC90F /* libNWPDFTouchStatic.a */; };
+		B3DECED71737B173005C3F64 /* libNWPDFCocoaStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A196C117379C3F000DC90F /* libNWPDFCocoaStatic.a */; };
+		B3DECED91737B182005C3F64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DECED81737B182005C3F64 /* QuartzCore.framework */; };
+		B3DECEDE1737BB63005C3F64 /* NWPDFPageContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196F817379CB2000DC90F /* NWPDFPageContainerViewController.h */; };
+		B3DECEDF1737BB63005C3F64 /* NWPDFSinglePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196FA17379CB2000DC90F /* NWPDFSinglePageViewController.h */; };
+		B3DECEE01737BB63005C3F64 /* NWPDFDocumentScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196FD17379CB2000DC90F /* NWPDFDocumentScrollView.h */; };
+		B3DECEE11737BB63005C3F64 /* NWPDFScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196FF17379CB2000DC90F /* NWPDFScrollViewController.h */; };
+		B3DECEE21737BB63005C3F64 /* NWPDFCacheMonitorView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970217379CB2000DC90F /* NWPDFCacheMonitorView.h */; };
+		B3DECEE31737BB63005C3F64 /* NWPDFPageNumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970417379CB2000DC90F /* NWPDFPageNumberView.h */; };
+		B3DECEE41737BB63005C3F64 /* NWPDFSinglePageView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970617379CB2000DC90F /* NWPDFSinglePageView.h */; };
+		B3DECEE51737BB63005C3F64 /* NWPDFThumbIndexView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970817379CB2000DC90F /* NWPDFThumbIndexView.h */; };
+		B3DECEE61737BB67005C3F64 /* NWPDFAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196E817379CB2000DC90F /* NWPDFAnnotation.h */; };
+		B3DECEE71737BB67005C3F64 /* NWPDFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196EA17379CB2000DC90F /* NWPDFCommon.h */; };
+		B3DECEE81737BB67005C3F64 /* NWPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196EC17379CB2000DC90F /* NWPDFDocument.h */; };
+		B3DECEE91737BB67005C3F64 /* NWPDFInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196EE17379CB2000DC90F /* NWPDFInformation.h */; };
+		B3DECEEA1737BB67005C3F64 /* NWPDFNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196F017379CB2000DC90F /* NWPDFNode.h */; };
+		B3DECEEB1737BB67005C3F64 /* NWPDFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A196F217379CB2000DC90F /* NWPDFPage.h */; };
+		B3DECEEC1737BB6C005C3F64 /* NWPDFCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970B17379CB2000DC90F /* NWPDFCache.h */; };
+		B3DECEED1737BB6C005C3F64 /* NWPDFCacheMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970D17379CB2000DC90F /* NWPDFCacheMonitor.h */; };
+		B3DECEEE1737BB6C005C3F64 /* NWPDFDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1970F17379CB2000DC90F /* NWPDFDiff.h */; };
+		B3DECEEF1737BB6C005C3F64 /* NWPDFPagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1971117379CB2000DC90F /* NWPDFPagePrefetcher.h */; };
+		B3DECEF01737BB6C005C3F64 /* NWPDFThumbPrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A1971317379CB2000DC90F /* NWPDFThumbPrefetcher.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3A1964B17379BD8000DC90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A1961617379BA0000DC90F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A1961F17379BD8000DC90F;
+			remoteInfo = NWPDFTouchDemo;
+		};
+		B3A1968417379C09000DC90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A1961617379BA0000DC90F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A1965F17379C08000DC90F;
+			remoteInfo = NWPDFCocoaDemo;
+		};
+		B3DECEF11737CD23005C3F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A1961617379BA0000DC90F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A1969817379C30000DC90F;
+			remoteInfo = NWPDFTouchStatic;
+		};
+		B3DECEF31737CD27005C3F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A1961617379BA0000DC90F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A196C017379C3F000DC90F;
+			remoteInfo = NWPDFCocoaStatic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3A1969717379C30000DC90F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B3A1962017379BD8000DC90F /* NWPDFTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWPDFTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A1962317379BD8000DC90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3A1962517379BD8000DC90F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3A1962717379BD8000DC90F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3A1962917379BD8000DC90F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3A1964517379BD8000DC90F /* NWPDFTouchTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWPDFTouchTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A1964617379BD8000DC90F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = System/Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
+		B3A1966017379C08000DC90F /* NWPDFCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWPDFCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A1966117379C08000DC90F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B3A1966417379C08000DC90F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B3A1966517379C08000DC90F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3A1966617379C08000DC90F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3A1968117379C09000DC90F /* NWPDFCocoaTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWPDFCocoaTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A1969917379C30000DC90F /* libNWPDFTouchStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNWPDFTouchStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A196C117379C3F000DC90F /* libNWPDFCocoaStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNWPDFCocoaStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A196E317379CA0000DC90F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B3A196E817379CB2000DC90F /* NWPDFAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFAnnotation.h; sourceTree = "<group>"; };
+		B3A196E917379CB2000DC90F /* NWPDFAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFAnnotation.m; sourceTree = "<group>"; };
+		B3A196EA17379CB2000DC90F /* NWPDFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFCommon.h; sourceTree = "<group>"; };
+		B3A196EB17379CB2000DC90F /* NWPDFCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFCommon.m; sourceTree = "<group>"; };
+		B3A196EC17379CB2000DC90F /* NWPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFDocument.h; sourceTree = "<group>"; };
+		B3A196ED17379CB2000DC90F /* NWPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFDocument.m; sourceTree = "<group>"; };
+		B3A196EE17379CB2000DC90F /* NWPDFInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFInformation.h; sourceTree = "<group>"; };
+		B3A196EF17379CB2000DC90F /* NWPDFInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFInformation.m; sourceTree = "<group>"; };
+		B3A196F017379CB2000DC90F /* NWPDFNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFNode.h; sourceTree = "<group>"; };
+		B3A196F117379CB2000DC90F /* NWPDFNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFNode.m; sourceTree = "<group>"; };
+		B3A196F217379CB2000DC90F /* NWPDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFPage.h; sourceTree = "<group>"; };
+		B3A196F317379CB2000DC90F /* NWPDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFPage.m; sourceTree = "<group>"; };
+		B3A196F417379CB2000DC90F /* NWPDF-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NWPDF-Prefix.pch"; sourceTree = "<group>"; };
+		B3A196F517379CB2000DC90F /* NWPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDF.h; sourceTree = "<group>"; };
+		B3A196F817379CB2000DC90F /* NWPDFPageContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFPageContainerViewController.h; sourceTree = "<group>"; };
+		B3A196F917379CB2000DC90F /* NWPDFPageContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFPageContainerViewController.m; sourceTree = "<group>"; };
+		B3A196FA17379CB2000DC90F /* NWPDFSinglePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFSinglePageViewController.h; sourceTree = "<group>"; };
+		B3A196FB17379CB2000DC90F /* NWPDFSinglePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFSinglePageViewController.m; sourceTree = "<group>"; };
+		B3A196FD17379CB2000DC90F /* NWPDFDocumentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFDocumentScrollView.h; sourceTree = "<group>"; };
+		B3A196FE17379CB2000DC90F /* NWPDFDocumentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFDocumentScrollView.m; sourceTree = "<group>"; };
+		B3A196FF17379CB2000DC90F /* NWPDFScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFScrollViewController.h; sourceTree = "<group>"; };
+		B3A1970017379CB2000DC90F /* NWPDFScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFScrollViewController.m; sourceTree = "<group>"; };
+		B3A1970217379CB2000DC90F /* NWPDFCacheMonitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFCacheMonitorView.h; sourceTree = "<group>"; };
+		B3A1970317379CB2000DC90F /* NWPDFCacheMonitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFCacheMonitorView.m; sourceTree = "<group>"; };
+		B3A1970417379CB2000DC90F /* NWPDFPageNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFPageNumberView.h; sourceTree = "<group>"; };
+		B3A1970517379CB2000DC90F /* NWPDFPageNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFPageNumberView.m; sourceTree = "<group>"; };
+		B3A1970617379CB2000DC90F /* NWPDFSinglePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFSinglePageView.h; sourceTree = "<group>"; };
+		B3A1970717379CB2000DC90F /* NWPDFSinglePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFSinglePageView.m; sourceTree = "<group>"; };
+		B3A1970817379CB2000DC90F /* NWPDFThumbIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFThumbIndexView.h; sourceTree = "<group>"; };
+		B3A1970917379CB2000DC90F /* NWPDFThumbIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFThumbIndexView.m; sourceTree = "<group>"; };
+		B3A1970B17379CB2000DC90F /* NWPDFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFCache.h; sourceTree = "<group>"; };
+		B3A1970C17379CB2000DC90F /* NWPDFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFCache.m; sourceTree = "<group>"; };
+		B3A1970D17379CB2000DC90F /* NWPDFCacheMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFCacheMonitor.h; sourceTree = "<group>"; };
+		B3A1970E17379CB2000DC90F /* NWPDFCacheMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFCacheMonitor.m; sourceTree = "<group>"; };
+		B3A1970F17379CB2000DC90F /* NWPDFDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFDiff.h; sourceTree = "<group>"; };
+		B3A1971017379CB2000DC90F /* NWPDFDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFDiff.m; sourceTree = "<group>"; };
+		B3A1971117379CB2000DC90F /* NWPDFPagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFPagePrefetcher.h; sourceTree = "<group>"; };
+		B3A1971217379CB2000DC90F /* NWPDFPagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFPagePrefetcher.m; sourceTree = "<group>"; };
+		B3A1971317379CB2000DC90F /* NWPDFThumbPrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFThumbPrefetcher.h; sourceTree = "<group>"; };
+		B3A1971417379CB2000DC90F /* NWPDFThumbPrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFThumbPrefetcher.m; sourceTree = "<group>"; };
+		B3A1975417379CBB000DC90F /* NWPDFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFAppDelegate.h; sourceTree = "<group>"; };
+		B3A1975517379CBB000DC90F /* NWPDFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFAppDelegate.m; sourceTree = "<group>"; };
+		B3A1975717379CBB000DC90F /* NWPDFNodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFNodeController.h; sourceTree = "<group>"; };
+		B3A1975817379CBB000DC90F /* NWPDFNodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFNodeController.m; sourceTree = "<group>"; };
+		B3A1975917379CBB000DC90F /* NWPDFNodeDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFNodeDetailController.h; sourceTree = "<group>"; };
+		B3A1975A17379CBB000DC90F /* NWPDFNodeDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFNodeDetailController.m; sourceTree = "<group>"; };
+		B3A1975B17379CBB000DC90F /* NWPDFNodeDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NWPDFNodeDetailController.xib; sourceTree = "<group>"; };
+		B3A1975D17379CBB000DC90F /* NWPDFCacherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFCacherController.h; sourceTree = "<group>"; };
+		B3A1975E17379CBB000DC90F /* NWPDFCacherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFCacherController.m; sourceTree = "<group>"; };
+		B3A1975F17379CBB000DC90F /* NWPDFCacherController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NWPDFCacherController.xib; sourceTree = "<group>"; };
+		B3A1976017379CBB000DC90F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3A1976117379CBB000DC90F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3A1976317379CBB000DC90F /* NWPDFMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPDFMenuTableViewController.h; sourceTree = "<group>"; };
+		B3A1976417379CBB000DC90F /* NWPDFMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFMenuTableViewController.m; sourceTree = "<group>"; };
+		B3A1976517379CBB000DC90F /* NWPDFDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NWPDFDemo-Info.plist"; sourceTree = "<group>"; };
+		B3A1976617379CBB000DC90F /* NWPDFDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NWPDFDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B3A1976817379CBB000DC90F /* demo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = demo.pdf; sourceTree = "<group>"; };
+		B3A1978A17379D02000DC90F /* NWLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NWLogging.framework; path = Frameworks/NWLogging.framework; sourceTree = "<group>"; };
+		B3A197B517379EDC000DC90F /* NWPDFTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NWPDFTest-Info.plist"; sourceTree = "<group>"; };
+		B3A197B717379EDC000DC90F /* NWPDFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFTest.m; sourceTree = "<group>"; };
+		B3DECED81737B182005C3F64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A1961D17379BD8000DC90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DECED91737B182005C3F64 /* QuartzCore.framework in Frameworks */,
+				B3DECED61737B16F005C3F64 /* libNWPDFTouchStatic.a in Frameworks */,
+				B3A1962417379BD8000DC90F /* UIKit.framework in Frameworks */,
+				B3A1962617379BD8000DC90F /* Foundation.framework in Frameworks */,
+				B3A1962817379BD8000DC90F /* CoreGraphics.framework in Frameworks */,
+				B3A1962A17379BD8000DC90F /* CoreData.framework in Frameworks */,
+				B3A1978D17379D02000DC90F /* NWLogging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1964117379BD8000DC90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A1964717379BD8000DC90F /* SenTestingKit.framework in Frameworks */,
+				B3A1964817379BD8000DC90F /* UIKit.framework in Frameworks */,
+				B3A1964917379BD8000DC90F /* Foundation.framework in Frameworks */,
+				B3A1964A17379BD8000DC90F /* CoreData.framework in Frameworks */,
+				B3A1978F17379D02000DC90F /* NWLogging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1965D17379C08000DC90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DECED71737B173005C3F64 /* libNWPDFCocoaStatic.a in Frameworks */,
+				B3A1966217379C08000DC90F /* Cocoa.framework in Frameworks */,
+				B3A1978E17379D02000DC90F /* NWLogging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1967D17379C09000DC90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A1968217379C09000DC90F /* SenTestingKit.framework in Frameworks */,
+				B3A1968317379C09000DC90F /* Cocoa.framework in Frameworks */,
+				B3A1979017379D02000DC90F /* NWLogging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1969617379C30000DC90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A1969A17379C30000DC90F /* Foundation.framework in Frameworks */,
+				B3A1978B17379D02000DC90F /* NWLogging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A196BE17379C3F000DC90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A196C217379C3F000DC90F /* Cocoa.framework in Frameworks */,
+				B3A1978C17379D02000DC90F /* NWLogging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A1961517379BA0000DC90F = {
+			isa = PBXGroup;
+			children = (
+				B3A196E317379CA0000DC90F /* README.md */,
+				B3A196E617379CB2000DC90F /* Library */,
+				B3A1975017379CBB000DC90F /* Demo */,
+				B3A197B417379EDC000DC90F /* Test */,
+				B3A1962217379BD8000DC90F /* Frameworks */,
+				B3A1962117379BD8000DC90F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A1962117379BD8000DC90F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1962017379BD8000DC90F /* NWPDFTouchDemo.app */,
+				B3A1964517379BD8000DC90F /* NWPDFTouchTest.octest */,
+				B3A1966017379C08000DC90F /* NWPDFCocoaDemo.app */,
+				B3A1968117379C09000DC90F /* NWPDFCocoaTest.octest */,
+				B3A1969917379C30000DC90F /* libNWPDFTouchStatic.a */,
+				B3A196C117379C3F000DC90F /* libNWPDFCocoaStatic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A1962217379BD8000DC90F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1978A17379D02000DC90F /* NWLogging.framework */,
+				B3DECED81737B182005C3F64 /* QuartzCore.framework */,
+				B3A1962317379BD8000DC90F /* UIKit.framework */,
+				B3A1962517379BD8000DC90F /* Foundation.framework */,
+				B3A1962717379BD8000DC90F /* CoreGraphics.framework */,
+				B3A1962917379BD8000DC90F /* CoreData.framework */,
+				B3A1964617379BD8000DC90F /* SenTestingKit.framework */,
+				B3A1966117379C08000DC90F /* Cocoa.framework */,
+				B3A1966317379C08000DC90F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3A1966317379C08000DC90F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1966417379C08000DC90F /* AppKit.framework */,
+				B3A1966517379C08000DC90F /* CoreData.framework */,
+				B3A1966617379C08000DC90F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B3A196E617379CB2000DC90F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B3A196E717379CB2000DC90F /* Core */,
+				B3A196F617379CB2000DC90F /* UI */,
+				B3A1970A17379CB2000DC90F /* Utils */,
+				B3A1979117379E6F000DC90F /* Supporting Files */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B3A196E717379CB2000DC90F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B3A196E817379CB2000DC90F /* NWPDFAnnotation.h */,
+				B3A196E917379CB2000DC90F /* NWPDFAnnotation.m */,
+				B3A196EA17379CB2000DC90F /* NWPDFCommon.h */,
+				B3A196EB17379CB2000DC90F /* NWPDFCommon.m */,
+				B3A196EC17379CB2000DC90F /* NWPDFDocument.h */,
+				B3A196ED17379CB2000DC90F /* NWPDFDocument.m */,
+				B3A196EE17379CB2000DC90F /* NWPDFInformation.h */,
+				B3A196EF17379CB2000DC90F /* NWPDFInformation.m */,
+				B3A196F017379CB2000DC90F /* NWPDFNode.h */,
+				B3A196F117379CB2000DC90F /* NWPDFNode.m */,
+				B3A196F217379CB2000DC90F /* NWPDFPage.h */,
+				B3A196F317379CB2000DC90F /* NWPDFPage.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B3A196F617379CB2000DC90F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B3A196F717379CB2000DC90F /* PageFlip */,
+				B3A196FC17379CB2000DC90F /* ScrollView */,
+				B3A1970117379CB2000DC90F /* Viewer */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B3A196F717379CB2000DC90F /* PageFlip */ = {
+			isa = PBXGroup;
+			children = (
+				B3A196F817379CB2000DC90F /* NWPDFPageContainerViewController.h */,
+				B3A196F917379CB2000DC90F /* NWPDFPageContainerViewController.m */,
+				B3A196FA17379CB2000DC90F /* NWPDFSinglePageViewController.h */,
+				B3A196FB17379CB2000DC90F /* NWPDFSinglePageViewController.m */,
+			);
+			path = PageFlip;
+			sourceTree = "<group>";
+		};
+		B3A196FC17379CB2000DC90F /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B3A196FD17379CB2000DC90F /* NWPDFDocumentScrollView.h */,
+				B3A196FE17379CB2000DC90F /* NWPDFDocumentScrollView.m */,
+				B3A196FF17379CB2000DC90F /* NWPDFScrollViewController.h */,
+				B3A1970017379CB2000DC90F /* NWPDFScrollViewController.m */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		B3A1970117379CB2000DC90F /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1970217379CB2000DC90F /* NWPDFCacheMonitorView.h */,
+				B3A1970317379CB2000DC90F /* NWPDFCacheMonitorView.m */,
+				B3A1970417379CB2000DC90F /* NWPDFPageNumberView.h */,
+				B3A1970517379CB2000DC90F /* NWPDFPageNumberView.m */,
+				B3A1970617379CB2000DC90F /* NWPDFSinglePageView.h */,
+				B3A1970717379CB2000DC90F /* NWPDFSinglePageView.m */,
+				B3A1970817379CB2000DC90F /* NWPDFThumbIndexView.h */,
+				B3A1970917379CB2000DC90F /* NWPDFThumbIndexView.m */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+		B3A1970A17379CB2000DC90F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1970B17379CB2000DC90F /* NWPDFCache.h */,
+				B3A1970C17379CB2000DC90F /* NWPDFCache.m */,
+				B3A1970D17379CB2000DC90F /* NWPDFCacheMonitor.h */,
+				B3A1970E17379CB2000DC90F /* NWPDFCacheMonitor.m */,
+				B3A1970F17379CB2000DC90F /* NWPDFDiff.h */,
+				B3A1971017379CB2000DC90F /* NWPDFDiff.m */,
+				B3A1971117379CB2000DC90F /* NWPDFPagePrefetcher.h */,
+				B3A1971217379CB2000DC90F /* NWPDFPagePrefetcher.m */,
+				B3A1971317379CB2000DC90F /* NWPDFThumbPrefetcher.h */,
+				B3A1971417379CB2000DC90F /* NWPDFThumbPrefetcher.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B3A1975017379CBB000DC90F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1975117379CBB000DC90F /* Application */,
+				B3A1975617379CBB000DC90F /* Browser */,
+				B3A1975C17379CBB000DC90F /* Cacher */,
+				B3A1976217379CBB000DC90F /* Menu */,
+				B3A1976717379CBB000DC90F /* Resources */,
+				B3DECEDA1737B1BC005C3F64 /* Supporting Files */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		B3A1975117379CBB000DC90F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1975417379CBB000DC90F /* NWPDFAppDelegate.h */,
+				B3A1975517379CBB000DC90F /* NWPDFAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B3A1975617379CBB000DC90F /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1975717379CBB000DC90F /* NWPDFNodeController.h */,
+				B3A1975817379CBB000DC90F /* NWPDFNodeController.m */,
+				B3A1975917379CBB000DC90F /* NWPDFNodeDetailController.h */,
+				B3A1975A17379CBB000DC90F /* NWPDFNodeDetailController.m */,
+				B3A1975B17379CBB000DC90F /* NWPDFNodeDetailController.xib */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		B3A1975C17379CBB000DC90F /* Cacher */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1975D17379CBB000DC90F /* NWPDFCacherController.h */,
+				B3A1975E17379CBB000DC90F /* NWPDFCacherController.m */,
+				B3A1975F17379CBB000DC90F /* NWPDFCacherController.xib */,
+			);
+			path = Cacher;
+			sourceTree = "<group>";
+		};
+		B3A1976217379CBB000DC90F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1976317379CBB000DC90F /* NWPDFMenuTableViewController.h */,
+				B3A1976417379CBB000DC90F /* NWPDFMenuTableViewController.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B3A1976717379CBB000DC90F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1976817379CBB000DC90F /* demo.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3A1979117379E6F000DC90F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A196F417379CB2000DC90F /* NWPDF-Prefix.pch */,
+				B3A196F517379CB2000DC90F /* NWPDF.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3A197B417379EDC000DC90F /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				B3A197B617379EDC000DC90F /* Unit */,
+				B3DECEDB1737B1D0005C3F64 /* Supporting Files */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		B3A197B617379EDC000DC90F /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				B3A197B717379EDC000DC90F /* NWPDFTest.m */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		B3DECEDA1737B1BC005C3F64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1976017379CBB000DC90F /* Default-568h@2x.png */,
+				B3A1976117379CBB000DC90F /* main.m */,
+				B3A1976517379CBB000DC90F /* NWPDFDemo-Info.plist */,
+				B3A1976617379CBB000DC90F /* NWPDFDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3DECEDB1737B1D0005C3F64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A197B517379EDC000DC90F /* NWPDFTest-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3A196BF17379C3F000DC90F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A1971517379CB2000DC90F /* NWPDFAnnotation.h in Headers */,
+				B3A1971817379CB2000DC90F /* NWPDFCommon.h in Headers */,
+				B3A1971B17379CB2000DC90F /* NWPDFDocument.h in Headers */,
+				B3A1971E17379CB2000DC90F /* NWPDFInformation.h in Headers */,
+				B3A1972117379CB2000DC90F /* NWPDFNode.h in Headers */,
+				B3A1972417379CB2000DC90F /* NWPDFPage.h in Headers */,
+				B3A1972717379CB2000DC90F /* NWPDF-Prefix.pch in Headers */,
+				B3A1972817379CB2000DC90F /* NWPDF.h in Headers */,
+				B3A1974117379CB2000DC90F /* NWPDFCache.h in Headers */,
+				B3A1974417379CB2000DC90F /* NWPDFCacheMonitor.h in Headers */,
+				B3A1974717379CB2000DC90F /* NWPDFDiff.h in Headers */,
+				B3A1974A17379CB2000DC90F /* NWPDFPagePrefetcher.h in Headers */,
+				B3A1974D17379CB2000DC90F /* NWPDFThumbPrefetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DECEDD1737BB52005C3F64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DECEDE1737BB63005C3F64 /* NWPDFPageContainerViewController.h in Headers */,
+				B3DECEDF1737BB63005C3F64 /* NWPDFSinglePageViewController.h in Headers */,
+				B3DECEE01737BB63005C3F64 /* NWPDFDocumentScrollView.h in Headers */,
+				B3DECEE11737BB63005C3F64 /* NWPDFScrollViewController.h in Headers */,
+				B3DECEE21737BB63005C3F64 /* NWPDFCacheMonitorView.h in Headers */,
+				B3DECEE31737BB63005C3F64 /* NWPDFPageNumberView.h in Headers */,
+				B3DECEE41737BB63005C3F64 /* NWPDFSinglePageView.h in Headers */,
+				B3DECEE51737BB63005C3F64 /* NWPDFThumbIndexView.h in Headers */,
+				B3DECEE61737BB67005C3F64 /* NWPDFAnnotation.h in Headers */,
+				B3DECEE71737BB67005C3F64 /* NWPDFCommon.h in Headers */,
+				B3DECEE81737BB67005C3F64 /* NWPDFDocument.h in Headers */,
+				B3DECEE91737BB67005C3F64 /* NWPDFInformation.h in Headers */,
+				B3DECEEA1737BB67005C3F64 /* NWPDFNode.h in Headers */,
+				B3DECEEB1737BB67005C3F64 /* NWPDFPage.h in Headers */,
+				B3DECEEC1737BB6C005C3F64 /* NWPDFCache.h in Headers */,
+				B3DECEED1737BB6C005C3F64 /* NWPDFCacheMonitor.h in Headers */,
+				B3DECEEE1737BB6C005C3F64 /* NWPDFDiff.h in Headers */,
+				B3DECEEF1737BB6C005C3F64 /* NWPDFPagePrefetcher.h in Headers */,
+				B3DECEF01737BB6C005C3F64 /* NWPDFThumbPrefetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B3A1961F17379BD8000DC90F /* NWPDFTouchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A1965A17379BD8000DC90F /* Build configuration list for PBXNativeTarget "NWPDFTouchDemo" */;
+			buildPhases = (
+				B3A1961C17379BD8000DC90F /* Sources */,
+				B3A1961D17379BD8000DC90F /* Frameworks */,
+				B3A1961E17379BD8000DC90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3DECEF21737CD23005C3F64 /* PBXTargetDependency */,
+			);
+			name = NWPDFTouchDemo;
+			productName = NWPDFTouchDemo;
+			productReference = B3A1962017379BD8000DC90F /* NWPDFTouchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3A1964417379BD8000DC90F /* NWPDFTouchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A1965B17379BD8000DC90F /* Build configuration list for PBXNativeTarget "NWPDFTouchTest" */;
+			buildPhases = (
+				B3A1964017379BD8000DC90F /* Sources */,
+				B3A1964117379BD8000DC90F /* Frameworks */,
+				B3A1964217379BD8000DC90F /* Resources */,
+				B3A1964317379BD8000DC90F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A1964C17379BD8000DC90F /* PBXTargetDependency */,
+			);
+			name = NWPDFTouchTest;
+			productName = NWPDFTouchDemoTests;
+			productReference = B3A1964517379BD8000DC90F /* NWPDFTouchTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B3A1965F17379C08000DC90F /* NWPDFCocoaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A1968F17379C09000DC90F /* Build configuration list for PBXNativeTarget "NWPDFCocoaDemo" */;
+			buildPhases = (
+				B3A1965C17379C08000DC90F /* Sources */,
+				B3A1965D17379C08000DC90F /* Frameworks */,
+				B3A1965E17379C08000DC90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3DECEF41737CD27005C3F64 /* PBXTargetDependency */,
+			);
+			name = NWPDFCocoaDemo;
+			productName = NWPDFCocoaDemo;
+			productReference = B3A1966017379C08000DC90F /* NWPDFCocoaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3A1968017379C09000DC90F /* NWPDFCocoaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A1969217379C09000DC90F /* Build configuration list for PBXNativeTarget "NWPDFCocoaTest" */;
+			buildPhases = (
+				B3A1967C17379C09000DC90F /* Sources */,
+				B3A1967D17379C09000DC90F /* Frameworks */,
+				B3A1967E17379C09000DC90F /* Resources */,
+				B3A1967F17379C09000DC90F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A1968517379C09000DC90F /* PBXTargetDependency */,
+			);
+			name = NWPDFCocoaTest;
+			productName = NWPDFCocoaDemoTests;
+			productReference = B3A1968117379C09000DC90F /* NWPDFCocoaTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B3A1969817379C30000DC90F /* NWPDFTouchStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A196B717379C30000DC90F /* Build configuration list for PBXNativeTarget "NWPDFTouchStatic" */;
+			buildPhases = (
+				B3A1969517379C30000DC90F /* Sources */,
+				B3A1969617379C30000DC90F /* Frameworks */,
+				B3DECEDD1737BB52005C3F64 /* Headers */,
+				B3A1969717379C30000DC90F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWPDFTouchStatic;
+			productName = NWPDFTouchStatic;
+			productReference = B3A1969917379C30000DC90F /* libNWPDFTouchStatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3A196C017379C3F000DC90F /* NWPDFCocoaStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A196DD17379C40000DC90F /* Build configuration list for PBXNativeTarget "NWPDFCocoaStatic" */;
+			buildPhases = (
+				B3A196BD17379C3F000DC90F /* Sources */,
+				B3A196BE17379C3F000DC90F /* Frameworks */,
+				B3A196BF17379C3F000DC90F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWPDFCocoaStatic;
+			productName = NWPDFCocoaStatic;
+			productReference = B3A196C117379C3F000DC90F /* libNWPDFCocoaStatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A1961617379BA0000DC90F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = B3A1961917379BA0000DC90F /* Build configuration list for PBXProject "NWPDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3A1961517379BA0000DC90F;
+			productRefGroup = B3A1962117379BD8000DC90F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A1969817379C30000DC90F /* NWPDFTouchStatic */,
+				B3A196C017379C3F000DC90F /* NWPDFCocoaStatic */,
+				B3A1961F17379BD8000DC90F /* NWPDFTouchDemo */,
+				B3A1965F17379C08000DC90F /* NWPDFCocoaDemo */,
+				B3A1964417379BD8000DC90F /* NWPDFTouchTest */,
+				B3A1968017379C09000DC90F /* NWPDFCocoaTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A1961E17379BD8000DC90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A196E417379CA0000DC90F /* README.md in Resources */,
+				B3A1977417379CBB000DC90F /* NWPDFNodeDetailController.xib in Resources */,
+				B3A1977817379CBB000DC90F /* NWPDFCacherController.xib in Resources */,
+				B3A1977A17379CBB000DC90F /* Default-568h@2x.png in Resources */,
+				B3A1978217379CBB000DC90F /* demo.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1964217379BD8000DC90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1965E17379C08000DC90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A196E517379CA0000DC90F /* README.md in Resources */,
+				B3A1977B17379CBB000DC90F /* Default-568h@2x.png in Resources */,
+				B3A1978317379CBB000DC90F /* demo.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1967E17379C09000DC90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3A1964317379BD8000DC90F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		B3A1967F17379C09000DC90F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A1961C17379BD8000DC90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A1976E17379CBB000DC90F /* NWPDFAppDelegate.m in Sources */,
+				B3A1977017379CBB000DC90F /* NWPDFNodeController.m in Sources */,
+				B3A1977217379CBB000DC90F /* NWPDFNodeDetailController.m in Sources */,
+				B3A1977617379CBB000DC90F /* NWPDFCacherController.m in Sources */,
+				B3A1977C17379CBB000DC90F /* main.m in Sources */,
+				B3A1977E17379CBB000DC90F /* NWPDFMenuTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1964017379BD8000DC90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A197BA17379EDC000DC90F /* NWPDFTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1965C17379C08000DC90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1967C17379C09000DC90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A197BB17379EDC000DC90F /* NWPDFTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A1969517379C30000DC90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A1971617379CB2000DC90F /* NWPDFAnnotation.m in Sources */,
+				B3A1971917379CB2000DC90F /* NWPDFCommon.m in Sources */,
+				B3A1971C17379CB2000DC90F /* NWPDFDocument.m in Sources */,
+				B3A1971F17379CB2000DC90F /* NWPDFInformation.m in Sources */,
+				B3A1972217379CB2000DC90F /* NWPDFNode.m in Sources */,
+				B3A1972517379CB2000DC90F /* NWPDFPage.m in Sources */,
+				B3A1972A17379CB2000DC90F /* NWPDFPageContainerViewController.m in Sources */,
+				B3A1972D17379CB2000DC90F /* NWPDFSinglePageViewController.m in Sources */,
+				B3A1973017379CB2000DC90F /* NWPDFDocumentScrollView.m in Sources */,
+				B3A1973317379CB2000DC90F /* NWPDFScrollViewController.m in Sources */,
+				B3A1973617379CB2000DC90F /* NWPDFCacheMonitorView.m in Sources */,
+				B3A1973917379CB2000DC90F /* NWPDFPageNumberView.m in Sources */,
+				B3A1973C17379CB2000DC90F /* NWPDFSinglePageView.m in Sources */,
+				B3A1973F17379CB2000DC90F /* NWPDFThumbIndexView.m in Sources */,
+				B3A1974217379CB2000DC90F /* NWPDFCache.m in Sources */,
+				B3A1974517379CB2000DC90F /* NWPDFCacheMonitor.m in Sources */,
+				B3A1974817379CB2000DC90F /* NWPDFDiff.m in Sources */,
+				B3A1974B17379CB2000DC90F /* NWPDFPagePrefetcher.m in Sources */,
+				B3A1974E17379CB2000DC90F /* NWPDFThumbPrefetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A196BD17379C3F000DC90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A1971717379CB2000DC90F /* NWPDFAnnotation.m in Sources */,
+				B3A1971A17379CB2000DC90F /* NWPDFCommon.m in Sources */,
+				B3A1971D17379CB2000DC90F /* NWPDFDocument.m in Sources */,
+				B3A1972017379CB2000DC90F /* NWPDFInformation.m in Sources */,
+				B3A1972317379CB2000DC90F /* NWPDFNode.m in Sources */,
+				B3A1972617379CB2000DC90F /* NWPDFPage.m in Sources */,
+				B3A1974317379CB2000DC90F /* NWPDFCache.m in Sources */,
+				B3A1974617379CB2000DC90F /* NWPDFCacheMonitor.m in Sources */,
+				B3A1974917379CB2000DC90F /* NWPDFDiff.m in Sources */,
+				B3A1974C17379CB2000DC90F /* NWPDFPagePrefetcher.m in Sources */,
+				B3A1974F17379CB2000DC90F /* NWPDFThumbPrefetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3A1964C17379BD8000DC90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A1961F17379BD8000DC90F /* NWPDFTouchDemo */;
+			targetProxy = B3A1964B17379BD8000DC90F /* PBXContainerItemProxy */;
+		};
+		B3A1968517379C09000DC90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A1965F17379C08000DC90F /* NWPDFCocoaDemo */;
+			targetProxy = B3A1968417379C09000DC90F /* PBXContainerItemProxy */;
+		};
+		B3DECEF21737CD23005C3F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A1969817379C30000DC90F /* NWPDFTouchStatic */;
+			targetProxy = B3DECEF11737CD23005C3F64 /* PBXContainerItemProxy */;
+		};
+		B3DECEF41737CD27005C3F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A196C017379C3F000DC90F /* NWPDFCocoaStatic */;
+			targetProxy = B3DECEF31737CD27005C3F64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3A1961A17379BA0000DC90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B3A1961B17379BA0000DC90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		B3A1965617379BD8000DC90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/NWPDFDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Demo/NWPDFDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3A1965717379BD8000DC90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/NWPDFDemo-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Demo/NWPDFDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3A1965817379BD8000DC90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NWPDFTouchDemo.app/NWPDFTouchDemo";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/NWPDF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NWPDFTouchDemoTests/NWPDFTouchDemoTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3A1965917379BD8000DC90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NWPDFTouchDemo.app/NWPDFTouchDemo";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/NWPDF-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NWPDFTouchDemoTests/NWPDFTouchDemoTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		B3A1969017379C09000DC90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/NWPDFDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Demo/NWPDFDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3A1969117379C09000DC90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/NWPDFDemo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Demo/NWPDFDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3A1969317379C09000DC90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NWPDFCocoaDemo.app/Contents/MacOS/NWPDFCocoaDemo";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/NWPDF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NWPDFCocoaDemoTests/NWPDFCocoaDemoTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3A1969417379C09000DC90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NWPDFCocoaDemo.app/Contents/MacOS/NWPDFCocoaDemo";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/NWPDF-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NWPDFCocoaDemoTests/NWPDFCocoaDemoTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		B3A196B817379C30000DC90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/NWPDFTouchStatic.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/NWPDF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3A196B917379C30000DC90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/NWPDFTouchStatic.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/NWPDF-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3A196DE17379C40000DC90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/NWPDF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3A196DF17379C40000DC90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/NWPDF-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A1961917379BA0000DC90F /* Build configuration list for PBXProject "NWPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A1961A17379BA0000DC90F /* Debug */,
+				B3A1961B17379BA0000DC90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A1965A17379BD8000DC90F /* Build configuration list for PBXNativeTarget "NWPDFTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A1965617379BD8000DC90F /* Debug */,
+				B3A1965717379BD8000DC90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A1965B17379BD8000DC90F /* Build configuration list for PBXNativeTarget "NWPDFTouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A1965817379BD8000DC90F /* Debug */,
+				B3A1965917379BD8000DC90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A1968F17379C09000DC90F /* Build configuration list for PBXNativeTarget "NWPDFCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A1969017379C09000DC90F /* Debug */,
+				B3A1969117379C09000DC90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A1969217379C09000DC90F /* Build configuration list for PBXNativeTarget "NWPDFCocoaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A1969317379C09000DC90F /* Debug */,
+				B3A1969417379C09000DC90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A196B717379C30000DC90F /* Build configuration list for PBXNativeTarget "NWPDFTouchStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A196B817379C30000DC90F /* Debug */,
+				B3A196B917379C30000DC90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A196DD17379C40000DC90F /* Build configuration list for PBXNativeTarget "NWPDFCocoaStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A196DE17379C40000DC90F /* Debug */,
+				B3A196DF17379C40000DC90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A1961617379BA0000DC90F /* Project object */;
+}
