@@ -10,6 +10,12 @@
 		B35783CC178E97E800BEE22B /* NWLCore.c in Sources */ = {isa = PBXBuildFile; fileRef = B35783CA178E97E800BEE22B /* NWLCore.c */; };
 		B35783CE178E97F300BEE22B /* NWLCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B35783CB178E97E800BEE22B /* NWLCore.h */; };
 		B35783D0178E97F300BEE22B /* NWLCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B35783CB178E97E800BEE22B /* NWLCore.h */; };
+		B35783D5178E9B9700BEE22B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B35783D1178E9B9700BEE22B /* Icon-72.png */; };
+		B35783D6178E9B9700BEE22B /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B35783D2178E9B9700BEE22B /* Icon-72@2x.png */; };
+		B35783D7178E9B9700BEE22B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B35783D3178E9B9700BEE22B /* Icon.png */; };
+		B35783D8178E9B9700BEE22B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B35783D4178E9B9700BEE22B /* Icon@2x.png */; };
+		B35783DB178E9BB800BEE22B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B35783D9178E9BB800BEE22B /* Default.png */; };
+		B35783DC178E9BB800BEE22B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B35783DA178E9BB800BEE22B /* Default@2x.png */; };
 		B3A1962417379BD8000DC90F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962317379BD8000DC90F /* UIKit.framework */; };
 		B3A1962617379BD8000DC90F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962517379BD8000DC90F /* Foundation.framework */; };
 		B3A1962817379BD8000DC90F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962717379BD8000DC90F /* CoreGraphics.framework */; };
@@ -152,6 +158,12 @@
 /* Begin PBXFileReference section */
 		B35783CA178E97E800BEE22B /* NWLCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NWLCore.c; sourceTree = "<group>"; };
 		B35783CB178E97E800BEE22B /* NWLCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWLCore.h; sourceTree = "<group>"; };
+		B35783D1178E9B9700BEE22B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		B35783D2178E9B9700BEE22B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		B35783D3178E9B9700BEE22B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B35783D4178E9B9700BEE22B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B35783D9178E9BB800BEE22B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B35783DA178E9BB800BEE22B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B3A1962017379BD8000DC90F /* NWPDFTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWPDFTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A1962317379BD8000DC90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3A1962517379BD8000DC90F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -537,6 +549,12 @@
 			isa = PBXGroup;
 			children = (
 				B3A1976017379CBB000DC90F /* Default-568h@2x.png */,
+				B35783D9178E9BB800BEE22B /* Default.png */,
+				B35783DA178E9BB800BEE22B /* Default@2x.png */,
+				B35783D1178E9B9700BEE22B /* Icon-72.png */,
+				B35783D2178E9B9700BEE22B /* Icon-72@2x.png */,
+				B35783D3178E9B9700BEE22B /* Icon.png */,
+				B35783D4178E9B9700BEE22B /* Icon@2x.png */,
 				B3A1976117379CBB000DC90F /* main.m */,
 				B3A1976517379CBB000DC90F /* NWPDFDemo-Info.plist */,
 				B3A1976617379CBB000DC90F /* NWPDFDemo-Prefix.pch */,
@@ -755,6 +773,12 @@
 				B3A1977817379CBB000DC90F /* NWPDFCacherController.xib in Resources */,
 				B3A1977A17379CBB000DC90F /* Default-568h@2x.png in Resources */,
 				B3A1978217379CBB000DC90F /* demo.pdf in Resources */,
+				B35783D5178E9B9700BEE22B /* Icon-72.png in Resources */,
+				B35783D6178E9B9700BEE22B /* Icon-72@2x.png in Resources */,
+				B35783D7178E9B9700BEE22B /* Icon.png in Resources */,
+				B35783D8178E9B9700BEE22B /* Icon@2x.png in Resources */,
+				B35783DB178E9BB800BEE22B /* Default.png in Resources */,
+				B35783DC178E9BB800BEE22B /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

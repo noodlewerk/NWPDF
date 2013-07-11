@@ -1,3 +1,5 @@
+![NWPDF icon](Demo/Icon@2x.png)
+
 NWPDF
 =====
 
