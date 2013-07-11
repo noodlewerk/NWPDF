@@ -9,7 +9,7 @@
 #import "NWPDFDocument.h"
 #import "NWPDFSinglePageView.h"
 #import "NWPDFPage.h"
-#import <NWLogging/NWLCore.h>
+#import "NWLCore.h"
 
 
 @implementation NWPDFDocumentScrollView {

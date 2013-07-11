@@ -8,7 +8,7 @@
 #import "NWPDFCacheMonitor.h"
 #import "NWPDFCache.h"
 #import "NWPDFCommon.h"
-#import <NWLogging/NWLCore.h>
+#import "NWLCore.h"
 
 
 @interface NWPDFCacheMonitorLogDelegate : NSObject <NWPDFCacheMonitorEventDelegate>

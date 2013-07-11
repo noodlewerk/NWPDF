@@ -14,4 +14,4 @@
 
 #import <CoreGraphics/CoreGraphics.h>
 
-#import <NWLogging/NWLCore.h>
+#import "NWLCore.h"

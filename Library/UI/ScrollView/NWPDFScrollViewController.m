@@ -14,7 +14,7 @@
 #import "NWPDFSinglePageView.h"
 #import "NWPDFThumbPrefetcher.h"
 #import "NWPDFCacheMonitorView.h"
-#import <NWLogging/NWLCore.h>
+#import "NWLCore.h"
 
 
 @class NWPDFDocument;

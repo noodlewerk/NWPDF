@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B35783CC178E97E800BEE22B /* NWLCore.c in Sources */ = {isa = PBXBuildFile; fileRef = B35783CA178E97E800BEE22B /* NWLCore.c */; };
+		B35783CE178E97F300BEE22B /* NWLCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B35783CB178E97E800BEE22B /* NWLCore.h */; };
+		B35783D0178E97F300BEE22B /* NWLCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B35783CB178E97E800BEE22B /* NWLCore.h */; };
 		B3A1962417379BD8000DC90F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962317379BD8000DC90F /* UIKit.framework */; };
 		B3A1962617379BD8000DC90F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962517379BD8000DC90F /* Foundation.framework */; };
 		B3A1962817379BD8000DC90F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1962717379BD8000DC90F /* CoreGraphics.framework */; };
@@ -77,12 +80,6 @@
 		B3A1977E17379CBB000DC90F /* NWPDFMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1976417379CBB000DC90F /* NWPDFMenuTableViewController.m */; };
 		B3A1978217379CBB000DC90F /* demo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3A1976817379CBB000DC90F /* demo.pdf */; };
 		B3A1978317379CBB000DC90F /* demo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3A1976817379CBB000DC90F /* demo.pdf */; };
-		B3A1978B17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
-		B3A1978C17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
-		B3A1978D17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
-		B3A1978E17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
-		B3A1978F17379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
-		B3A1979017379D02000DC90F /* NWLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1978A17379D02000DC90F /* NWLogging.framework */; };
 		B3A197BA17379EDC000DC90F /* NWPDFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A197B717379EDC000DC90F /* NWPDFTest.m */; };
 		B3A197BB17379EDC000DC90F /* NWPDFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A197B717379EDC000DC90F /* NWPDFTest.m */; };
 		B3DECED61737B16F005C3F64 /* libNWPDFTouchStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1969917379C30000DC90F /* libNWPDFTouchStatic.a */; };
@@ -153,6 +150,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B35783CA178E97E800BEE22B /* NWLCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NWLCore.c; sourceTree = "<group>"; };
+		B35783CB178E97E800BEE22B /* NWLCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWLCore.h; sourceTree = "<group>"; };
 		B3A1962017379BD8000DC90F /* NWPDFTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWPDFTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A1962317379BD8000DC90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3A1962517379BD8000DC90F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -226,7 +225,6 @@
 		B3A1976517379CBB000DC90F /* NWPDFDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NWPDFDemo-Info.plist"; sourceTree = "<group>"; };
 		B3A1976617379CBB000DC90F /* NWPDFDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NWPDFDemo-Prefix.pch"; sourceTree = "<group>"; };
 		B3A1976817379CBB000DC90F /* demo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = demo.pdf; sourceTree = "<group>"; };
-		B3A1978A17379D02000DC90F /* NWLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NWLogging.framework; path = Frameworks/NWLogging.framework; sourceTree = "<group>"; };
 		B3A197B517379EDC000DC90F /* NWPDFTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NWPDFTest-Info.plist"; sourceTree = "<group>"; };
 		B3A197B717379EDC000DC90F /* NWPDFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPDFTest.m; sourceTree = "<group>"; };
 		B3DECED81737B182005C3F64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -243,7 +241,6 @@
 				B3A1962617379BD8000DC90F /* Foundation.framework in Frameworks */,
 				B3A1962817379BD8000DC90F /* CoreGraphics.framework in Frameworks */,
 				B3A1962A17379BD8000DC90F /* CoreData.framework in Frameworks */,
-				B3A1978D17379D02000DC90F /* NWLogging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +252,6 @@
 				B3A1964817379BD8000DC90F /* UIKit.framework in Frameworks */,
 				B3A1964917379BD8000DC90F /* Foundation.framework in Frameworks */,
 				B3A1964A17379BD8000DC90F /* CoreData.framework in Frameworks */,
-				B3A1978F17379D02000DC90F /* NWLogging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +261,6 @@
 			files = (
 				B3DECED71737B173005C3F64 /* libNWPDFCocoaStatic.a in Frameworks */,
 				B3A1966217379C08000DC90F /* Cocoa.framework in Frameworks */,
-				B3A1978E17379D02000DC90F /* NWLogging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +270,6 @@
 			files = (
 				B3A1968217379C09000DC90F /* SenTestingKit.framework in Frameworks */,
 				B3A1968317379C09000DC90F /* Cocoa.framework in Frameworks */,
-				B3A1979017379D02000DC90F /* NWLogging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3A1969A17379C30000DC90F /* Foundation.framework in Frameworks */,
-				B3A1978B17379D02000DC90F /* NWLogging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,13 +286,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3A196C217379C3F000DC90F /* Cocoa.framework in Frameworks */,
-				B3A1978C17379D02000DC90F /* NWLogging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B35783C9178E97E800BEE22B /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				B35783CA178E97E800BEE22B /* NWLCore.c */,
+				B35783CB178E97E800BEE22B /* NWLCore.h */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
 		B3A1961517379BA0000DC90F = {
 			isa = PBXGroup;
 			children = (
@@ -328,7 +329,7 @@
 		B3A1962217379BD8000DC90F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B3A1978A17379D02000DC90F /* NWLogging.framework */,
+				B35783C9178E97E800BEE22B /* Logging */,
 				B3DECED81737B182005C3F64 /* QuartzCore.framework */,
 				B3A1962317379BD8000DC90F /* UIKit.framework */,
 				B3A1962517379BD8000DC90F /* Foundation.framework */,
@@ -571,6 +572,7 @@
 				B3A1974717379CB2000DC90F /* NWPDFDiff.h in Headers */,
 				B3A1974A17379CB2000DC90F /* NWPDFPagePrefetcher.h in Headers */,
 				B3A1974D17379CB2000DC90F /* NWPDFThumbPrefetcher.h in Headers */,
+				B35783CE178E97F300BEE22B /* NWLCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +599,7 @@
 				B3DECEEE1737BB6C005C3F64 /* NWPDFDiff.h in Headers */,
 				B3DECEEF1737BB6C005C3F64 /* NWPDFPagePrefetcher.h in Headers */,
 				B3DECEF01737BB6C005C3F64 /* NWPDFThumbPrefetcher.h in Headers */,
+				B35783D0178E97F300BEE22B /* NWLCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,6 +824,7 @@
 				B3A1977617379CBB000DC90F /* NWPDFCacherController.m in Sources */,
 				B3A1977C17379CBB000DC90F /* main.m in Sources */,
 				B3A1977E17379CBB000DC90F /* NWPDFMenuTableViewController.m in Sources */,
+				B35783CC178E97E800BEE22B /* NWLCore.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -946,7 +950,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -988,7 +991,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1024,7 +1026,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1066,7 +1067,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1099,10 +1099,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1143,10 +1140,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1179,10 +1173,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1225,10 +1216,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1263,7 +1251,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1304,7 +1291,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1335,10 +1321,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1376,10 +1359,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

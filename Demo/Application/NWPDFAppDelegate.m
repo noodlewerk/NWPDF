@@ -8,7 +8,7 @@
 #import "NWPDFAppDelegate.h"
 #import "NWPDFMenuTableViewController.h"
 #import <CoreData/CoreData.h>
-#import <NWLogging/NWLCore.h>
+#import "NWLCore.h"
 
 
 @implementation NWPDFAppDelegate

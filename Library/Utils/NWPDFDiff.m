@@ -9,7 +9,7 @@
 #import "NWPDFPage.h"
 #import "NWPDFNode.h"
 #import "NWPDFCommon.h"
-#import <NWLogging/NWLCore.h>
+#import "NWLCore.h"
 
 
 @implementation NWPDFDiff

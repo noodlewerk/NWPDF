@@ -9,7 +9,7 @@
 #import "NWPDFCache.h"
 #import "NWPDFDocument.h"
 #import "NWPDFPage.h"
-#import <NWLogging/NWLCore.h>
+#import "NWLCore.h"
 
 
 @implementation NWPDFThumbPrefetcher {
